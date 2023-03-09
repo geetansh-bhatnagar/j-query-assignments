@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+   
+    <h1>Jquery tutorial</h1>
+    <div class="img">
+    <img src="luke-white-wEPQUXHbv7U-unsplash.jpg" alt="gwagon" style="height: 400px;"></div> <br>
+    <button>use fade attribute</button>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("img").fadeOut(3000, function() {
+        })
+        .fadeIn(3000);;
+          });
+        });
+    </script>
+</body>
+</html>
