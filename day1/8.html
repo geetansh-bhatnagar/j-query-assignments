@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Jquery tutorial</h1>
+    <div class="img">
+        <img src="luke-white-wEPQUXHbv7U-unsplash.jpg" id="picture1" alt="gwagon" style="height: 400px;">
+    </div> <br>
+    <!-- <button>use fade attribute</button> -->
+    </div>
+    <script>
+        $(document).ready(function () {
+
+
+            //When the image is hovered upon, hide the div using Mouseover
+            $('#picture1').mouseover(function () {
+                $(".img").hide();
+            });
+
+            //When the Div is hovered away from, show the hidden div using Mouseout
+            $('#picture1').mouseout(function () {
+                $(".img").show();
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>

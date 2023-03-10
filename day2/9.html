@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Jquery tutorial</h1>
+    <div class="text">
+    <p>my name is geetansh.</p> <br> 
+    <p>my name is ankit also.</p> <br> 
+    <p>my name is ram also.</p> <br> 
+    <p>my name is shyam also.</p> <br> 
+    <p>my name is surya also.</p> <br> 
+</div>
+   <button> Append text on div</button>
+   <script>
+    $(document).ready(function(){
+  $("button").click(function(){
+    $(".text").append("Some appended text.");
+
+   
+  });
+});
+   </script>
+</body>
+</html>
